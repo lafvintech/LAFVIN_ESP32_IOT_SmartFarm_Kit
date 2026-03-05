@@ -132,3 +132,108 @@ Unzip "Flash Download Tool". The folder contains the following files. Double-cli
    - If flashing still fails, restart the computer and development board and try again.
 
 ----
+
+LAFVIN Web Flasher 
+-------------------
+
+Of course, you can also use **LAFVIN Web Flasher** to directly burn programs, which is more convenient and faster.
+
+.. image:: _static/install/12.web.png
+   :width: 800
+   :align: center
+
+----
+
+The firmware for this kit is already integrated into LAFVIN Web Flasher. You can quickly burn the program by following these steps.
+
+1. Similarly, you need to install Serial Port Tool first. See the previous instructions for detailed installation steps; if you have already installed it, skip this step.
+
+2. Connect the ESP32 development board to your computer using a data cable. Click here to go to LAFVIN Web Flasher. `LAFVIN Web Flasher <https://lafvintech.github.io/Lafvin_Web_Flasher/>`_
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
+.. image:: _static/install/13.web.png
+   :width: 800
+   :align: center
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
+.. image:: _static/install/14.web.png
+   :width: 800
+   :align: center
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
+3. Click **Select device** and choose **ESP32 SmartFarm IOT Kit**.
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
+.. image:: _static/install/15.web.png
+   :width: 800
+   :align: center
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
+4. Select **smartfarm** for both chip and firmware versions.
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
+.. image:: _static/install/16.web.png
+   :width: 800
+   :align: center
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
+5. Click **connect** select the corresponding serial port from the pop-up devices list, and click **connect**.
+
+.. note::
+
+   - Ensure the ESP32 development board is connected to the computer using a data cable.
+
+   - Ensure the computer has the CH340 serial port tool installed.
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
+.. image:: _static/install/17.web.png
+   :width: 800
+   :align: center
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
+6. Select 921600 for Flash Baud Rate and click **flash** to start the burning process.
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
+.. image:: _static/install/18.web.png
+   :width: 800
+   :align: center
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
+7. You can check the burning progress below.
+
+8. After the programming is complete, press the **RST Button** on the ESP32 development board to start the program.
+
+----
