@@ -1,0 +1,214 @@
+Introduction
+============
+
+**Welcome to ESP32-IOT-SmartFarm-kit**
+
+.. image:: _static/Assembly/41.com.jpg
+   :width: 1000
+   :align: center
+
+----
+
+- This smart farm development kit uses a high-performance ESP32 development board as its core control unit and employs modular components with standard 2.54mm pitch interfaces for easy connection and expansion. 
+
+- The system supports three interaction methods: infrared remote control, voice control, and control via an app.Users can easily manage various farm equipment, such as water pumps, lighting, and fan operation. 
+
+- By learning Arduino programming and remote real-time operation via the mobile app, users can not only experience the intelligent control benefits of IoT technology firsthand but also gain a deeper understanding of the complete collaborative working mechanism of sensor perception, data communication, and actuator linkage, thereby mastering the core principles and application methods of IoT systems.
+
+----
+
+Bill of Materials
+-----------------
+
+The following table lists all components included in the **ESP32-IOT-SmartFarm-kit**. Please check carefully to ensure that all parts are complete before starting.  
+
+.. list-table::
+   :header-rows: 1
+   :widths: 30 40 20
+   :align: center
+
+   * - PIC
+     - Item
+     - Quantity
+   * - .. image:: _static/bom/1.esp32.png
+          :width: 200
+          :align: center
+     - ESP32 DevKit
+     - 1 pcs
+   * - .. image:: _static/bom/2.esp32expboard.png
+          :width: 200
+          :align: center
+     - ESP32 Expansion Board
+     - 1 pcs
+   * - .. image:: _static/bom/3.battery.png
+          :width: 200
+          :align: center
+     - Battery Box
+     - 1 pcs
+   * - .. image:: _static/bom/4.dht11.png
+          :width: 100
+          :align: center
+     - DHT11 Sensor
+     - 1 pcs
+   * - .. image:: _static/bom/5.pir.png
+          :width: 100
+          :align: center
+     - PIR Sensor
+     - 1 pcs
+   * - .. image:: _static/bom/6.rain.png
+          :width: 100
+          :align: center
+     - Water Sensor
+     - 1 pcs
+   * - .. image:: _static/bom/7.light.png
+          :width: 100
+          :align: center
+     - Light Sensor
+     - 1 pcs
+   * - .. image:: _static/bom/8.buzzer.png
+          :width: 100
+          :align: center
+     - Active Buzzer Module
+     - 1 pcs
+   * - .. image:: _static/bom/9.IR.png
+          :width: 100
+          :align: center
+     - IR Receiver Module
+     - 1 pcs
+   * - .. image:: _static/bom/10.fan.png
+          :width: 100
+          :align: center
+     - Motor Fan Module
+     - 1 pcs
+   * - .. image:: _static/bom/11.speech.png
+          :width: 100
+          :align: center
+     - Speech Recognition Module
+     - 1 pcs
+   * - .. image:: _static/bom/12.rgb1.png
+          :width: 500
+          :align: center
+     - RGB Light Strip
+     - 1 pcs
+   * - .. image:: _static/bom/13.lcd.png
+          :width: 200
+          :align: center
+     - LCD1602 Display
+     - 1 pcs
+   * - .. image:: _static/bom/27.irrec.png
+          :width: 100
+          :align: center
+     - Infrared Remote Control
+     - 1 pcs
+   * - .. image:: _static/bom/21.tyn.png
+          :width: 200
+          :align: center
+     - Water Pump
+     - 1 pcs
+   * - .. image:: _static/bom/21.tyn.png
+          :width: 200
+          :align: center
+     - Solar Module
+     - 1 pcs
+   * - .. image:: _static/bom/16.typec.png
+          :width: 200
+          :align: center
+     - Type-C Data Cable
+     - 1 pcs
+   * - .. image:: _static/bom/17.3p.png
+          :width: 200
+          :align: center
+     - 3P Cable
+     - 8 pcs
+   * - .. image:: _static/bom/18.4p.png
+          :width: 200
+          :align: center
+     - 4P Cable
+     - 3 pcs
+   * - .. image:: _static/bom/24.watertank.png
+          :width: 200
+          :align: center
+     - Water Tank
+     - 1 pcs
+   * - .. image:: _static/bom/26.basswood.png
+          :width: 100
+          :align: center
+     - Basswood Board
+     - 6 pcs
+   * - .. image:: _static/bom/22.caiban.png
+          :width: 100
+          :align: center
+     - Painted Basswood
+     - 1 pcs
+   * - .. image:: _static/bom/20.Screwdriver.png
+          :width: 200
+          :align: center
+     - Phillips Screwdriver
+     - 1 pcs
+   * - .. image:: _static/bom/21.sleeve.png
+          :width: 200
+          :align: center
+     - Sleeve
+     - 5 pcs
+   * - .. image:: _static/bom/23.screwbag.png
+          :width: 300
+          :align: center
+     - Screw Bag
+     - 3 bags
+   * - .. image:: _static/bom/25.glue.png
+          :width: 200
+          :align: center
+     - Glue
+     - 5 pcs
+     
+----
+
+Function Introduction
+---------------------
+
+**Automatic Control Mode:**
+
+Ambient Light Sensor: Automatically turns on white supplemental lighting when light levels are below a threshold, simulating nighttime lighting for plants.
+
+Intelligent Security Linkage: Automatically triggers a buzzer alarm when human activity is detected under low light conditions, providing nighttime anti-theft functionality.
+
+Temperature-Controlled Ventilation: Automatically starts and stops fans according to preset temperature thresholds, achieving intelligent adjustment of ambient temperature.
+
+Environmental Monitoring and Display: Real-time collection of temperature, humidity, light, and water level data, dynamically updated and displayed on the LCD1602 screen.
+
+**Infrared Remote Control:**
+
+One-button global control of fans, water pumps, and RGB lights is possible via remote control buttons.
+
+Independent on/off operation of each device is also supported, flexibly adapting to different scenario needs.
+
+Switching between three RGB lighting effects, enabling/disabling alarm modes, and setting thresholds for temperature-controlled fans.
+
+**SPEECH Recognition Control:**
+
+Supports direct control of fans, water pumps, and RGB lights via specific voice commands, achieving a hands-free intelligent interactive experience.
+
+**APP Control:**
+
+Real-time monitoring and display of environmental data such as temperature, humidity, light intensity, water level, and human presence.
+
+Supports remote control of RGB lights, with independent adjustment of red, green, and blue brightness.
+
+Remotely starts and stops fans and water pumps, enabling comprehensive mobile management of farm equipment.
+
+----
+
+Resource Download
+-----------------
+
+All the necessary code and library files for this course are provided. You can obtain all the resources through the following link.
+
+`Code and Libraries <https://www.dropbox.com/scl/fo/sl9z0sjm05r91bp1ydpow/ADg7koIZM07COmi8Y_GyPWE?rlkey=odmym388yz5bqwd5xhbzzn2zi&st=4w7j8l23&dl=1>`_
+
+`Flash Download Tool <https://www.dropbox.com/scl/fo/r81afjixw65y88jikwxno/AM8XTGDtfcEJDgN0jHyMbRY?rlkey=4lvaoh0axd9nhvk9al7qukoi5&st=1hqtehms&dl=1>`_
+
+`CH340 <https://www.dropbox.com/scl/fo/c4bb59fr42qcs9cxgexan/AIMImtqevecMqYNMJVK1ZBM?rlkey=9afntuwy2usxfxbl7xjkoirsy&st=89a5bx6b&dl=1>`_
+
+----
+
+
