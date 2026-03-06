@@ -1176,7 +1176,7 @@ Wiring Diagram
 
  - Water Pump → Relay Module V+ V-
 
-.. image:: _static/COURSE/19.SPEECH.png
+.. image:: _static/COURSE/21.water.png
    :width: 800
    :align: center
 
