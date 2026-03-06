@@ -1,7 +1,7 @@
 Smart Farm Assembly
 ==================
 
-.. image:: _static/Assembly/41.com.jpg
+.. image:: _static/Assembly/41.com2.jpg
    :width: 1000
    :align: center
 
