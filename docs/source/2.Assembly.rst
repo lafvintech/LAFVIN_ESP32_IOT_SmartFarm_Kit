@@ -19,7 +19,7 @@ Assembly Video
 Wiring Diagram
 ---------------
 
-.. image:: _static/Assembly/1.Wiring.png
+.. image:: _static/Assembly/1.wiring2.png
    :width: 1000
    :align: center
 

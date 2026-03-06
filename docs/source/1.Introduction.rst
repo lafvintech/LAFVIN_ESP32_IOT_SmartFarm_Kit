@@ -50,6 +50,11 @@ The following table lists all components included in the **ESP32-IOT-SmartFarm-k
           :align: center
      - DHT11 Sensor
      - 1 pcs
+   * - .. image:: _static/bom/30.waterlevl.png
+          :width: 200
+          :align: center
+     - WaterLevel Sensor
+     - 1 pcs
    * - .. image:: _static/bom/5.pir.png
           :width: 100
           :align: center
@@ -80,6 +85,11 @@ The following table lists all components included in the **ESP32-IOT-SmartFarm-k
           :align: center
      - Motor Fan Module
      - 1 pcs
+   * - .. image:: _static/bom/31.relay.png
+          :width: 100
+          :align: center
+     - Relay Module
+     - 1 pcs
    * - .. image:: _static/bom/11.speech.png
           :width: 100
           :align: center
@@ -100,7 +110,7 @@ The following table lists all components included in the **ESP32-IOT-SmartFarm-k
           :align: center
      - Infrared Remote Control
      - 1 pcs
-   * - .. image:: _static/bom/21.tyn.png
+   * - .. image:: _static/bom/28.pump.png
           :width: 200
           :align: center
      - Water Pump
@@ -125,8 +135,8 @@ The following table lists all components included in the **ESP32-IOT-SmartFarm-k
           :align: center
      - 4P Cable
      - 3 pcs
-   * - .. image:: _static/bom/24.watertank.png
-          :width: 200
+   * - .. image:: _static/bom/29.tank.png
+          :width: 400
           :align: center
      - Water Tank
      - 1 pcs
@@ -154,12 +164,12 @@ The following table lists all components included in the **ESP32-IOT-SmartFarm-k
           :width: 300
           :align: center
      - Screw Bag
-     - 3 bags
+     - 2 bags
    * - .. image:: _static/bom/25.glue.png
           :width: 200
           :align: center
      - Glue
-     - 5 pcs
+     - 10 pcs
      
 ----
 
