@@ -3,7 +3,7 @@ Introduction
 
 **Welcome to ESP32-IOT-SmartFarm-kit**
 
-.. image:: _static/Assembly/41.com2.jpg
+.. image:: _static/bom/LA073A10.png
    :width: 1000
    :align: center
 
