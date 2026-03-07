@@ -34,7 +34,7 @@ Infrared Remote Control
 
 - The OK button can turn on the fan, water pump, and RGB lights with one click, while the 0 button can turn them off with one click.
 - Press button 1 to turn on the fan, press button 2 to turn on the RGB light, press button 3 to turn on the water pump, press button 4 to turn on the alarm mode, press button 6 to turn on the RGB light supplement, and press buttons 7, 8, and 9 to switch between three RGB light effects.
-- Press the left button to enter the temperature threshold setting of the temperature controlled fan. Set it by pressing the up and down buttons, and adjust it by 0.5 degrees Celsius each time. Press the left button again to confirm the setting.
+- Press the left button to enter the temperature threshold setting of the temperature controlled fan. Set it by pressing the up and down buttons, and adjust it by 1 degrees Celsius each time. Press the left button again to confirm the setting.
 
 ----
 
