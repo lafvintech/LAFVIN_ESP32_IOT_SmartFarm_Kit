@@ -12,7 +12,7 @@ ESP32 IOT SmartFarm Kit
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: 🧩 Experimental Course
 
    5.Arduino
