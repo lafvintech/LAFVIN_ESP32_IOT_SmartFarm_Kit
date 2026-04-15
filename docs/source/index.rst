@@ -14,7 +14,7 @@ ESP32 IOT SmartFarm Kit
    2.Assembly
    3.FlashTool
    4.AppUse
-
+   7.FAQ
 
 .. toctree::
    :maxdepth: 1
@@ -23,4 +23,3 @@ ESP32 IOT SmartFarm Kit
    5.Arduino
    8.Components
    6.Course
-   7.FAQ
