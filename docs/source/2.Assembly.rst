@@ -10,6 +10,11 @@ Smart Farm Assembly
 Assembly Video
 --------------
 
+.. video:: _static/Assembly/0.assembly.mp4
+    :width: 100%
+
+----
+
 - The video contains an assembly tutorial for the smart farm. By watching this video, you can quickly assemble it. 
 
 - If you need a more detailed assembly tutorial, please continue to view the text and image tutorial below.
