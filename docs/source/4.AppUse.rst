@@ -91,8 +91,17 @@ App Control
 1. APP Download
 ~~~~~~~~~~~~~~~
 
-- For Android system, click the link below to download the installation package, or scan the QR code below to download.
-- iOS devices can download the app from the App Store. Search for “LAFVIN” to find and install it, or scan the QR code below to jump to the download page.
+- You can download it by searching for **SmartFarm LAFVIN** in the Google Play Store or Apple App Store.
+
+- Alternatively, you can scan the corresponding QR code below according to your phone's operating system to be redirected to the app store to download.
+
+.. image:: _static/App/11.APP.png
+   :width: 800
+   :align: center
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
 
 ----
 
