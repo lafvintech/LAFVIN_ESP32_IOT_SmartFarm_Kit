@@ -129,7 +129,7 @@ Step 2: Install Battery Box
 
 - **Parts list：** Battery Box 、M3*10mm Flat-head screw （2 PCS）、M3 Nut（2 PCS）.
 
-.. image:: _static/Assembly/4.battary.png
+.. image:: _static/Assembly/4.battary1.png
    :width: 800
    :align: center
 
@@ -384,9 +384,9 @@ Step 4：Install WaterWheel
 Step 5：Install Water Level Sensor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- **Parts list：**  Basswood boards with “N”、Extended pad（3 PCS）、Water Level Sensor、M3*17mm screw （2 PCS）、M3 Nut（2 PCS）.
+- **Parts list：**  Basswood boards with “N”、Extended pad（3 PCS）、Water Level Sensor、M3*16mm screw （2 PCS）、M3 Nut（2 PCS）.
 
-.. image:: _static/Assembly/20.level.png
+.. image:: _static/Assembly/20.level1.png
    :width: 800
    :align: center
 
